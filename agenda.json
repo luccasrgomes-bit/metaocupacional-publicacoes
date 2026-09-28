@@ -62,7 +62,8 @@
       "publicado": {
         "media_id": "18395010739201159",
         "em": "2026-09-28T18:01:00+00:00"
-      }
+      },
+      "substituido_por": "2026-09-post-03b"
     },
     {
       "id": "2026-09-reel-01",
@@ -72,6 +73,24 @@
       "legenda": "Um funcionário sai de licença por depressão. Dependendo do ramo da empresa, o INSS presume que a causa foi o trabalho, e a defesa depende do que a empresa documentou antes.\n\nEm 80 segundos: o NTEP, a conta do afastamento acidentário, o que os testes mais usados no Brasil realmente medem e o que o Ministério do Trabalho aceita como prova.\n\nFontes na tela.\n\n#NR1 #riscospsicossociais #saudeocupacional",
       "video": "posts/2026-09-reel-01/reel.mp4",
       "capa": "posts/2026-09-reel-01/capa.jpg",
+      "publicado": null
+    },
+    {
+      "id": "2026-09-post-03b",
+      "tema": "NTEP: a presunção do INSS (versão corrigida)",
+      "quando": "2026-09-28T14:12:54-04:00",
+      "aprovado": true,
+      "legenda": "Saúde ocupacional não é só exame admissional.\n\nDesde 2007, o INSS pode presumir que um afastamento foi causado pelo trabalho, a partir do cruzamento entre a doença e a atividade da empresa. É o NTEP. A perícia presume o nexo, a empresa pode contestar em 15 dias, e o ônus se inverte: e a defesa da empresa depende do que ela documentou antes.\n\nFontes no último cartão.\n\n#NR1 #saudeocupacional #riscospsicossociais",
+      "imagens": [
+        "posts/2026-09-post-03b/01.jpg",
+        "posts/2026-09-post-03b/02.jpg",
+        "posts/2026-09-post-03b/03.jpg",
+        "posts/2026-09-post-03b/04.jpg",
+        "posts/2026-09-post-03b/05.jpg",
+        "posts/2026-09-post-03b/06.jpg",
+        "posts/2026-09-post-03b/07.jpg",
+        "posts/2026-09-post-03b/08.jpg"
+      ],
       "publicado": null
     }
   ]
