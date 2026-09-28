@@ -4,7 +4,7 @@ Roda no GitHub Actions. Lê agenda.json e publica os posts APROVADOS cuja hora j
 As imagens são servidas pelo GitHub Pages deste repositório (a API só aceita JPEG por URL pública).
 
 Uso:
-  python publicar.py             publica o que estiver vencido e aprovado
+  python publicar.py             publica o que estiver vencido e aprovado (carrossel, imagem ou Reels)
   python publicar.py --conferir  só confere chave, limite e se as imagens abrem; não publica nada
   python publicar.py --renovar   renova a chave de 60 dias e regrava token.enc
 """
@@ -59,8 +59,8 @@ def chamar(metodo, caminho, **params):
         raise RuntimeError(f"{metodo} {url.split('?')[0]} -> {e.code}: {corpo[:400]}") from None
 
 
-def esperar_pronto(tk, container):
-    for _ in range(30):
+def esperar_pronto(tk, container, tentativas=30):
+    for _ in range(tentativas):
         st = chamar("GET", container, fields="status_code,status", access_token=tk)
         if st.get("status_code") == "FINISHED":
             return
@@ -70,7 +70,19 @@ def esperar_pronto(tk, container):
     raise RuntimeError(f"Container {container} não ficou pronto a tempo.")
 
 
+def publicar_reels(tk, post):
+    params = dict(media_type="REELS", video_url=PAGES + post["video"], caption=post["legenda"],
+                  share_to_feed="true", access_token=tk)
+    if post.get("capa"):
+        params["cover_url"] = PAGES + post["capa"]
+    c = chamar("POST", f"{IG_ID}/media", **params)["id"]
+    esperar_pronto(tk, c, tentativas=120)  # vídeo processa mais devagar: até 10 min
+    return chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"]
+
+
 def publicar_post(tk, post):
+    if post.get("video"):
+        return publicar_reels(tk, post)
     urls = [PAGES + p for p in post["imagens"]]
     if len(urls) == 1:
         c = chamar("POST", f"{IG_ID}/media", image_url=urls[0], caption=post["legenda"], access_token=tk)["id"]
@@ -90,7 +102,7 @@ def conferir(tk, agenda):
     lim = chamar("GET", f"{IG_ID}/content_publishing_limit", fields="quota_usage,config", access_token=tk)
     print("Conta:", eu.get("username"), eu.get("account_type"), "| limite:", lim["data"][0])
     for post in agenda["posts"]:
-        for p in post["imagens"]:
+        for p in post.get("imagens", []) + [x for x in (post.get("video"), post.get("capa")) if x]:
             with urllib.request.urlopen(urllib.request.Request(PAGES + p, method="HEAD"), timeout=30) as r:
                 print(f"  {post['id']} {p}: {r.headers.get('Content-Type')}")
     print("Nada foi publicado.")
