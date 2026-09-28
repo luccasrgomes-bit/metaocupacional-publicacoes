@@ -1,0 +1,24 @@
+name: Publicar no Instagram
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: publicar
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar o que estiver vencido e aprovado
+        env:
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+        run: python3 publicar.py
+      - name: Registrar o que foi publicado
+        run: |
+          if ! git diff --quiet agenda.json; then
+            git config user.name "robo-publicador"
+            git config user.email "robo@metaocupacional.com.br"
+            git commit -am "Registra publicação" && git push
+          fi

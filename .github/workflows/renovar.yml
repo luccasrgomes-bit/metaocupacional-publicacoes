@@ -1,0 +1,22 @@
+name: Renovar chave do Instagram
+on:
+  schedule:
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: publicar
+jobs:
+  renovar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Renovar a chave de 60 dias
+        env:
+          TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+        run: python3 publicar.py --renovar
+      - name: Gravar a chave renovada
+        run: |
+          git config user.name "robo-publicador"
+          git config user.email "robo@metaocupacional.com.br"
+          git commit -am "Renova chave do Instagram" && git push || echo "sem mudança"
