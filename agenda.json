@@ -63,6 +63,16 @@
         "media_id": "18395010739201159",
         "em": "2026-09-28T18:01:00+00:00"
       }
+    },
+    {
+      "id": "2026-09-reel-01",
+      "tema": "Reels: Adivinha quem prova?",
+      "quando": "2026-09-28T14:30:00-04:00",
+      "aprovado": false,
+      "legenda": "Um funcionário sai de licença por depressão. Dependendo do ramo da empresa, o INSS presume que a causa foi o trabalho, e a defesa depende do que a empresa documentou antes.\n\nEm 80 segundos: o NTEP, a conta do afastamento acidentário, o que os testes mais usados no Brasil realmente medem e o que o Ministério do Trabalho aceita como prova.\n\nFontes na tela.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+      "video": "posts/2026-09-reel-01/reel.mp4",
+      "capa": "posts/2026-09-reel-01/capa.jpg",
+      "publicado": null
     }
   ]
 }
