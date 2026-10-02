@@ -14,6 +14,9 @@ jobs:
       - name: Publicar o que estiver vencido e aprovado
         env:
           TOKEN_KEY: ${{ secrets.TOKEN_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: python3 publicar.py
       - name: Registrar o que foi publicado
         run: |

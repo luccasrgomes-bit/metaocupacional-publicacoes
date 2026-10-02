@@ -7,6 +7,10 @@ Uso:
   python publicar.py             publica o que estiver vencido e aprovado (carrossel, imagem ou Reels)
   python publicar.py --conferir  só confere chave, limite e se as imagens abrem; não publica nada
   python publicar.py --renovar   renova a chave de 60 dias e regrava token.enc
+
+YouTube: todo post com vídeo e com o bloco "youtube" (titulo, descricao, tags) sobe também como
+Short, depois de publicado no Instagram. Falha no YouTube não trava o Instagram: tenta de novo nas
+rodadas seguintes, até 3 vezes. Chaves nos segredos YT_CLIENT_ID, YT_CLIENT_SECRET e YT_REFRESH_TOKEN.
 """
 import json
 import os
@@ -97,6 +101,60 @@ def publicar_post(tk, post):
     return chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"]
 
 
+def yt_token():
+    ids = [os.environ.get(k) for k in ("YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN")]
+    if not all(ids):
+        return None
+    dados = urllib.parse.urlencode(dict(client_id=ids[0], client_secret=ids[1], refresh_token=ids[2],
+                                        grant_type="refresh_token")).encode()
+    with urllib.request.urlopen("https://oauth2.googleapis.com/token", data=dados, timeout=60) as r:
+        return json.load(r)["access_token"]
+
+
+def publicar_youtube(yt, post):
+    """Envio retomável da API do YouTube: primeiro os metadados, depois o arquivo inteiro."""
+    meta = post["youtube"]
+    corpo = {
+        "snippet": {"title": meta["titulo"][:100], "description": meta["descricao"], "tags": meta.get("tags", []),
+                    "categoryId": "27", "defaultLanguage": "pt-BR", "defaultAudioLanguage": "pt-BR"},
+        "status": {"privacyStatus": meta.get("privacidade", "public"), "selfDeclaredMadeForKids": False},
+    }
+    video = (RAIZ / post["video"]).read_bytes()
+    ini = urllib.request.Request(
+        "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status",
+        data=json.dumps(corpo).encode(), method="POST",
+        headers={"Authorization": "Bearer " + yt, "Content-Type": "application/json; charset=UTF-8",
+                 "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(len(video))})
+    with urllib.request.urlopen(ini, timeout=60) as r:
+        destino = r.headers["Location"]
+    envio = urllib.request.Request(destino, data=video, method="PUT",
+                                   headers={"Content-Type": "video/mp4", "Content-Length": str(len(video))})
+    with urllib.request.urlopen(envio, timeout=600) as r:
+        return json.load(r)["id"]
+
+
+def pendentes_youtube(agenda, agora):
+    """Sobe no YouTube o que ja saiu no Instagram e ainda nao saiu la."""
+    fila = [p for p in agenda["posts"] if p.get("publicado") and p.get("video") and p.get("youtube")
+            and not p.get("youtube_publicado") and p.get("youtube_tentativas", 0) < 3]
+    if not fila:
+        return False
+    yt = yt_token()
+    if not yt:
+        print("YouTube: segredos ausentes, nada enviado.")
+        return False
+    for post in fila:
+        try:
+            vid = publicar_youtube(yt, post)
+            post["youtube_publicado"] = {"video_id": vid, "em": agora.isoformat(timespec="seconds"),
+                                         "link": f"https://youtube.com/shorts/{vid}"}
+            print("  YouTube:", post["id"], "->", vid)
+        except Exception as e:  # o Instagram ja saiu; registra e tenta na proxima rodada
+            post["youtube_tentativas"] = post.get("youtube_tentativas", 0) + 1
+            print("  YouTube falhou em", post["id"], f"(tentativa {post['youtube_tentativas']}):", str(e)[:300])
+    return True
+
+
 def conferir(tk, agenda):
     eu = chamar("GET", "me", fields="user_id,username,account_type", access_token=tk)
     lim = chamar("GET", f"{IG_ID}/content_publishing_limit", fields="quota_usage,config", access_token=tk)
@@ -131,6 +189,8 @@ def main():
         post["publicado"] = {"media_id": media, "em": agora.isoformat(timespec="seconds")}
         mudou = True
         print("  publicado:", media)
+    if pendentes_youtube(agenda, agora):
+        mudou = True
     if mudou:
         AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     else:
