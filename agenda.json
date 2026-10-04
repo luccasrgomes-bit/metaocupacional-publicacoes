@@ -121,7 +121,7 @@
     {
       "id": "2026-10-post-09",
       "tema": "Por que perguntar “você sofre assédio?” mede pouco",
-      "quando": "2026-10-20T08:30:00-04:00",
+      "quando": "2026-10-22T08:30:00-04:00",
       "aprovado": false,
       "legenda": "Perguntar “você sofre assédio?” mede menos do que listar os atos: numa meta-análise de 86 amostras em 24 países, a autorrotulagem com definição apontou cerca de 11%, e o inventário de atos, cerca de 15%.\n\nA Meta Saúde Ocupacional ouve a sua equipe, entrega inventário de riscos e plano de ação assinados por responsável técnica, executa as medidas e comprova o resultado.\n\nPeça uma proposta pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
       "imagens": [
@@ -234,6 +234,50 @@
       "publicado": {
         "media_id": "18128878798858922",
         "em": "2026-10-04T16:25:58+00:00"
+      }
+    },
+    {
+      "id": "2026-10-post-presenteismo",
+      "tema": "Presenteísmo: o que é, seus efeitos e como identificar (carrossel 10)",
+      "quando": "2026-10-15T08:30:00-04:00",
+      "aprovado": true,
+      "imagens": [
+        "posts/2026-10-post-presenteismo/01.jpg",
+        "posts/2026-10-post-presenteismo/02.jpg",
+        "posts/2026-10-post-presenteismo/03.jpg",
+        "posts/2026-10-post-presenteismo/04.jpg",
+        "posts/2026-10-post-presenteismo/05.jpg",
+        "posts/2026-10-post-presenteismo/06.jpg",
+        "posts/2026-10-post-presenteismo/07.jpg",
+        "posts/2026-10-post-presenteismo/08.jpg",
+        "posts/2026-10-post-presenteismo/09.jpg",
+        "posts/2026-10-post-presenteismo/10.jpg"
+      ],
+      "legenda": "Presenteísmo é ir trabalhar doente. A pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto: na depressão, responde por 81% do custo do tempo produtivo perdido. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nA Meta Saúde Ocupacional faz a avaliação de riscos psicossociais que a NR-1 exige: diagnóstico com a equipe, inventário de riscos e plano de ação assinados, e acompanhamento da execução.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional"
+    },
+    {
+      "id": "2026-10-reel-04",
+      "tema": "Reels: presenteísmo (eletrônica suave)",
+      "quando": "2026-10-20T08:30:00-04:00",
+      "aprovado": true,
+      "video": "posts/2026-10-reel-04/reel.mp4",
+      "capa": "posts/2026-10-reel-04/capa.jpg",
+      "legenda": "Presenteísmo é ir trabalhar doente. A pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto: na depressão, responde por 81% do custo do tempo produtivo perdido. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nA Meta Saúde Ocupacional faz a avaliação de riscos psicossociais que a NR-1 exige: diagnóstico com a equipe, inventário de riscos e plano de ação assinados, e acompanhamento da execução.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+      "youtube": {
+        "titulo": "Presenteísmo: o que é, seus efeitos e como identificar",
+        "descricao": "Presenteísmo é ir trabalhar doente: a pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nFontes: Johns, Journal of Organizational Behavior, 2010; Stewart et al., JAMA, 2003; Miraglia e Johns, Journal of Occupational Health Psychology, 2016.\n\nExemplos de riscos psicossociais no trabalho: https://metaocupacional.com.br/conteudo/riscos-psicossociais-no-trabalho-exemplos/\n\n#NR1 #riscospsicossociais #saudeocupacional",
+        "tags": [
+          "presenteísmo",
+          "NR-1",
+          "riscos psicossociais",
+          "saúde mental no trabalho",
+          "produtividade",
+          "absenteísmo",
+          "saúde ocupacional",
+          "gestão de pessoas",
+          "RH",
+          "Meta Saúde Ocupacional"
+        ]
       }
     }
   ]
