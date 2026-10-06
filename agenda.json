@@ -169,7 +169,10 @@
         "posts/2026-10-trilogia-1/06.jpg",
         "posts/2026-10-trilogia-1/07.jpg"
       ],
-      "publicado": null
+      "publicado": {
+        "media_id": "17931711573404619",
+        "em": "2026-10-06T14:20:15+00:00"
+      }
     },
     {
       "id": "2026-10-trilogia-2",
