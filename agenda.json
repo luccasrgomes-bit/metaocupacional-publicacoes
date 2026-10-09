@@ -298,6 +298,43 @@
         "media_id": "18048435422823913",
         "em": "2026-10-05T12:26:50+00:00"
       }
+    },
+    {
+      "id": "2026-10-story-diferenca",
+      "tema": "Stories: você sabe a diferença? (9 telas, hoje)",
+      "quando": "2026-10-09T14:15:03-04:00",
+      "aprovado": true,
+      "stories": true,
+      "imagens": [
+        "posts/2026-10-story-diferenca/01.jpg",
+        "posts/2026-10-story-diferenca/02.jpg",
+        "posts/2026-10-story-diferenca/03.jpg",
+        "posts/2026-10-story-diferenca/04.jpg",
+        "posts/2026-10-story-diferenca/05.jpg",
+        "posts/2026-10-story-diferenca/06.jpg",
+        "posts/2026-10-story-diferenca/07.jpg",
+        "posts/2026-10-story-diferenca/08.jpg",
+        "posts/2026-10-story-diferenca/09.jpg"
+      ],
+      "legenda": ""
+    },
+    {
+      "id": "2026-10-post-diferenca",
+      "tema": "Carrossel: avaliação psicossocial x avaliação de riscos psicossociais",
+      "quando": "2026-10-17T08:30:00-04:00",
+      "aprovado": true,
+      "imagens": [
+        "posts/2026-10-post-diferenca/01.jpg",
+        "posts/2026-10-post-diferenca/02.jpg",
+        "posts/2026-10-post-diferenca/03.jpg",
+        "posts/2026-10-post-diferenca/04.jpg",
+        "posts/2026-10-post-diferenca/05.jpg",
+        "posts/2026-10-post-diferenca/06.jpg",
+        "posts/2026-10-post-diferenca/07.jpg",
+        "posts/2026-10-post-diferenca/08.jpg",
+        "posts/2026-10-post-diferenca/09.jpg"
+      ],
+      "legenda": "Você sabe a diferença? A avaliação psicossocial olha a pessoa: diz se um trabalhador está apto para trabalho em altura ou em espaço confinado. A avaliação de riscos psicossociais olha o trabalho: carga, ritmo, apoio da chefia, assédio. É esta que a NR-1 e a NR-17 exigem, e uma não substitui a outra.\n\nNa Meta Saúde Ocupacional, a avaliação de riscos psicossociais tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional"
     }
   ]
 }

@@ -4,7 +4,7 @@ Roda no GitHub Actions. Lê agenda.json e publica os posts APROVADOS cuja hora j
 As imagens são servidas pelo GitHub Pages deste repositório (a API só aceita JPEG por URL pública).
 
 Uso:
-  python publicar.py             publica o que estiver vencido e aprovado (carrossel, imagem ou Reels)
+  python publicar.py             publica o que estiver vencido e aprovado (carrossel, imagem, Reels ou Stories: "stories": true)
   python publicar.py --conferir  só confere chave, limite e se as imagens abrem; não publica nada
   python publicar.py --renovar   renova a chave de 60 dias e regrava token.enc
 
@@ -84,9 +84,22 @@ def publicar_reels(tk, post):
     return chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"]
 
 
+def publicar_stories(tk, post):
+    """Cada imagem vira um Story, na ordem; devolve os ids separados por vírgula."""
+    ids = []
+    for p in post["imagens"]:
+        c = chamar("POST", f"{IG_ID}/media", media_type="STORIES", image_url=PAGES + p, access_token=tk)["id"]
+        esperar_pronto(tk, c)
+        ids.append(chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"])
+        time.sleep(3)
+    return ",".join(ids)
+
+
 def publicar_post(tk, post):
     if post.get("video"):
         return publicar_reels(tk, post)
+    if post.get("stories"):
+        return publicar_stories(tk, post)
     urls = [PAGES + p for p in post["imagens"]]
     if len(urls) == 1:
         c = chamar("POST", f"{IG_ID}/media", image_url=urls[0], caption=post["legenda"], access_token=tk)["id"]
