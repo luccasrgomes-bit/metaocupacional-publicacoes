@@ -366,6 +366,36 @@
         "em": "2026-10-09T19:21:53+00:00",
         "obs": "8 pelo robô + tela 9 à mão (contêiner expirou na 1ª tentativa)"
       }
+    },
+    {
+      "id": "2026-10-story-stf-sejan",
+      "tema": "Stories: atualização NR-1 (STF 14/10, Sejan), 3 telas",
+      "quando": "2026-10-15T09:47:00-04:00",
+      "aprovado": true,
+      "stories": true,
+      "imagens": [
+        "posts/2026-10-story-stf-sejan/01.jpg",
+        "posts/2026-10-story-stf-sejan/02.jpg",
+        "posts/2026-10-story-stf-sejan/03.jpg"
+      ],
+      "legenda": "",
+      "publicado": null
+    },
+    {
+      "id": "2026-10-post-stf-sejan",
+      "tema": "Carrossel: atualização NR-1 (STF 14/10, Sejan, 60 dias)",
+      "quando": "2026-10-15T09:48:00-04:00",
+      "aprovado": true,
+      "imagens": [
+        "posts/2026-10-post-stf-sejan/01.jpg",
+        "posts/2026-10-post-stf-sejan/02.jpg",
+        "posts/2026-10-post-stf-sejan/03.jpg",
+        "posts/2026-10-post-stf-sejan/04.jpg",
+        "posts/2026-10-post-stf-sejan/05.jpg",
+        "posts/2026-10-post-stf-sejan/06.jpg"
+      ],
+      "legenda": "Atualização NR-1: o que mudou no STF em 14/10/2026.\n\nA pedido da AGU, o ministro André Mendonça autorizou a Câmara de Promoção de Segurança Jurídica no Ambiente de Negócios (Sejan) a debater as mudanças da norma sobre riscos psicossociais. A Sejan é um fórum sem poder de decisão, com entidades de setores econômicos, trabalhadores e sociedade civil. Enquanto o debate ocorre, a tramitação das três ações (ADPFs 1316, 1333 e 1340) fica suspensa por 60 dias. Os subsídios colhidos voltam ao Nusol, onde a conciliação está em curso desde junho.\n\nO que segue suspenso: as sanções administrativas, até por volta de 22/12, pela prorrogação de setembro. O que não está suspenso: a vigência da NR-1, o dever de identificar, avaliar e gerenciar os riscos psicossociais no PGR, e as ações na Justiça do Trabalho.\n\nFonte: Portal de Notícias do STF, 14/10/2026.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+      "publicado": null
     }
   ]
 }
