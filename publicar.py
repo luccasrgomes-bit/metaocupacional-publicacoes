@@ -90,7 +90,15 @@ def publicar_stories(tk, post):
     for p in post["imagens"]:
         c = chamar("POST", f"{IG_ID}/media", media_type="STORIES", image_url=PAGES + p, access_token=tk)["id"]
         esperar_pronto(tk, c)
-        ids.append(chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"])
+        # 22/10/2026: a API respondeu "Media Not Found" logo depois de FINISHED; tenta de novo.
+        for tentativa in range(4):
+            try:
+                ids.append(chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"])
+                break
+            except RuntimeError as e:
+                if "2207006" not in str(e) or tentativa == 3:
+                    raise
+                time.sleep(8)
         time.sleep(3)
     return ",".join(ids)
 
