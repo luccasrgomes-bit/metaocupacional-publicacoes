@@ -435,7 +435,10 @@
         "posts/2026-10-story-questionario/06.jpg"
       ],
       "legenda": "",
-      "publicado": null
+      "publicado": {
+        "media_id": "18025266029870798,18124448116869134,17911285815485894,18195184747393377,17963290428210300,18109540646109325",
+        "em": "2026-10-22T23:46:25+00:00"
+      }
     },
     {
       "id": "2026-10-post-questionario",
@@ -451,7 +454,10 @@
         "posts/2026-10-post-questionario/06.jpg"
       ],
       "legenda": "Não existe questionário oficial da NR-1. O Ministério do Trabalho diz isso por escrito: o órgão \"não define ou não sugere nenhuma metodologia específica\". Quem escolhe o instrumento é a empresa, e ela responde pela escolha.\n\nO que mais chega junto com essa pergunta: não há PDF oficial para baixar; o guia lista treze fatores de risco, e nenhum questionário cobre todos; e aplicar e anexar ao PGR não basta, porque a norma pede identificar, avaliar, classificar, implementar medidas e acompanhar.\n\nRiscos psicossociais no trabalho, do diagnóstico à ação comprovada. Fale com a gente pelo WhatsApp (66) 99917-5512.\n\nFontes no último cartão.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": null
+      "publicado": {
+        "media_id": "18119724892911881",
+        "em": "2026-10-22T23:46:25+00:00"
+      }
     }
   ]
 }
