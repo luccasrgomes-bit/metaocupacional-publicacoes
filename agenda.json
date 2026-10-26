@@ -1,476 +1,485 @@
 {
-  "_leia": "Só publica post com aprovado=true e hora (fuso -04:00 = Cuiabá) já passada. 'publicado' é preenchido pelo robô.",
-  "posts": [
-    {
-      "id": "2026-09-post-01",
-      "tema": "Avaliação psicossocial: pessoa x trabalho",
-      "quando": "2026-09-28T13:21:30-04:00",
-      "aprovado": true,
-      "legenda": "Avaliação psicossocial virou a palavra do ano no RH. O problema é que ela quer dizer duas coisas diferentes.\n\nUma mede a pessoa: estresse, ansiedade, sintoma. A outra mede o trabalho: ritmo, demanda, autonomia, apoio da chefia, clareza da função.\n\nA NR-1 trata da segunda. E uma pesquisa com 80 psicólogos e médicos do trabalho mostrou que, no Brasil, a prática quase sempre foi a primeira.\n\nFontes no último cartão.\n\nHoje, nosso trabalho tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-09-post-01/01.jpg",
-        "posts/2026-09-post-01/02.jpg",
-        "posts/2026-09-post-01/03.jpg",
-        "posts/2026-09-post-01/04.jpg",
-        "posts/2026-09-post-01/05.jpg",
-        "posts/2026-09-post-01/06.jpg",
-        "posts/2026-09-post-01/07.jpg",
-        "posts/2026-09-post-01/08.jpg"
-      ],
-      "publicado": {
-        "media_id": "17987601099118658",
-        "em": "2026-09-28T17:23:13+00:00"
-      }
-    },
-    {
-      "id": "2026-09-post-02",
-      "tema": "Não existe questionário oficial da NR-1",
-      "quando": "2026-09-28T13:43:06-04:00",
-      "aprovado": true,
-      "legenda": "Muita empresa está procurando “o questionário da NR-1”. Ele não existe.\n\nO Ministério do Trabalho deixou isso por escrito e acrescentou que aplicar um questionário, sozinho, não comprova a gestão do risco. O que comprova são três documentos: inventário de riscos, plano de ação e critérios adotados.\n\nSituação em 28/09/2026: o STF prorrogou a suspensão das multas ligadas a esses itens, mas a obrigação continua valendo. O andamento pode ser conferido no portal do STF, ADPF 1316.\n\nFontes no último cartão.\n\nHoje, nosso trabalho tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-09-post-02/01.jpg",
-        "posts/2026-09-post-02/02.jpg",
-        "posts/2026-09-post-02/03.jpg",
-        "posts/2026-09-post-02/04.jpg",
-        "posts/2026-09-post-02/05.jpg",
-        "posts/2026-09-post-02/06.jpg",
-        "posts/2026-09-post-02/07.jpg",
-        "posts/2026-09-post-02/08.jpg"
-      ],
-      "publicado": {
-        "media_id": "18235838686317270",
-        "em": "2026-09-28T17:44:20+00:00"
-      }
-    },
-    {
-      "id": "2026-09-post-03",
-      "tema": "NTEP: a presunção do INSS",
-      "quando": "2026-09-28T13:59:06-04:00",
-      "aprovado": true,
-      "legenda": "Saúde ocupacional não é só exame admissional.\n\nDesde 2007, o INSS pode presumir que um afastamento foi causado pelo trabalho, a partir do cruzamento entre a doença e a atividade da empresa. É o NTEP. Quando isso acontece, o ônus se inverte, e a defesa da empresa depende do que ela documentou antes.\n\nFontes no último cartão.\n\n#NR1 #saudeocupacional #riscospsicossociais",
-      "imagens": [
-        "posts/2026-09-post-03/01.jpg",
-        "posts/2026-09-post-03/02.jpg",
-        "posts/2026-09-post-03/03.jpg",
-        "posts/2026-09-post-03/04.jpg",
-        "posts/2026-09-post-03/05.jpg",
-        "posts/2026-09-post-03/06.jpg",
-        "posts/2026-09-post-03/07.jpg",
-        "posts/2026-09-post-03/08.jpg"
-      ],
-      "publicado": {
-        "media_id": "18395010739201159",
-        "em": "2026-09-28T18:01:00+00:00"
-      },
-      "substituido_por": "2026-09-post-03b",
-      "excluido": "2026-09-28: tinha 'de forma automática' no cartão 2; substituído por 2026-09-post-03b"
-    },
-    {
-      "id": "2026-09-reel-01",
-      "tema": "Reels: Adivinha quem prova?",
-      "quando": "2026-09-28T14:21:10-04:00",
-      "aprovado": true,
-      "legenda": "Um funcionário sai de licença por depressão. Dependendo do ramo da empresa, o INSS presume que a causa foi o trabalho, e a defesa depende do que a empresa documentou antes.\n\nEm 80 segundos: o NTEP, a conta do afastamento acidentário, o que os testes mais usados no Brasil realmente medem e o que o Ministério do Trabalho aceita como prova.\n\nFontes na tela.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "video": "posts/2026-09-reel-01/reel.mp4",
-      "capa": "posts/2026-09-reel-01/capa.jpg",
-      "publicado": {
-        "media_id": "18097200224547739",
-        "em": "2026-09-28T18:23:07+00:00"
-      }
-    },
-    {
-      "id": "2026-09-post-03b",
-      "tema": "NTEP: a presunção do INSS (versão corrigida)",
-      "quando": "2026-09-28T14:12:54-04:00",
-      "aprovado": true,
-      "legenda": "Saúde ocupacional não é só exame admissional.\n\nDesde 2007, o INSS pode presumir que um afastamento foi causado pelo trabalho, a partir do cruzamento entre a doença e a atividade da empresa. É o NTEP. A perícia presume o nexo, a empresa pode contestar em 15 dias, e o ônus se inverte: a defesa da empresa depende do que ela documentou antes.\n\nFontes no último cartão.\n\n#NR1 #saudeocupacional #riscospsicossociais",
-      "imagens": [
-        "posts/2026-09-post-03b/01.jpg",
-        "posts/2026-09-post-03b/02.jpg",
-        "posts/2026-09-post-03b/03.jpg",
-        "posts/2026-09-post-03b/04.jpg",
-        "posts/2026-09-post-03b/05.jpg",
-        "posts/2026-09-post-03b/06.jpg",
-        "posts/2026-09-post-03b/07.jpg",
-        "posts/2026-09-post-03b/08.jpg"
-      ],
-      "publicado": {
-        "media_id": "17875396131573870",
-        "em": "2026-09-28T18:14:59+00:00"
-      }
-    },
-    {
-      "id": "2026-10-post-07",
-      "tema": "Afastamentos por burnout: 1.760 em 2023, 6.985 em 2025",
-      "quando": "2026-10-13T08:30:00-04:00",
-      "aprovado": false,
-      "legenda": "Afastamentos por burnout passaram de 1.760 em 2023 para 6.985 em 2025, até novembro, no levantamento da ANAMT com dados oficiais do INSS. Burnout, porém, depende de nexo apurado caso a caso: não é automático.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-10-post-07/01.jpg",
-        "posts/2026-10-post-07/02.jpg",
-        "posts/2026-10-post-07/03.jpg",
-        "posts/2026-10-post-07/04.jpg",
-        "posts/2026-10-post-07/05.jpg",
-        "posts/2026-10-post-07/06.jpg",
-        "posts/2026-10-post-07/07.jpg",
-        "posts/2026-10-post-07/08.jpg"
-      ],
-      "publicado": null
-    },
-    {
-      "id": "2026-10-post-09",
-      "tema": "Por que perguntar “você sofre assédio?” mede pouco",
-      "quando": "2026-10-22T08:30:00-04:00",
-      "aprovado": false,
-      "legenda": "Perguntar “você sofre assédio?” mede menos do que listar os atos: numa meta-análise de 86 amostras em 24 países, a autorrotulagem com definição apontou cerca de 11%, e o inventário de atos, cerca de 15%.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-10-post-09/01.jpg",
-        "posts/2026-10-post-09/02.jpg",
-        "posts/2026-10-post-09/03.jpg",
-        "posts/2026-10-post-09/04.jpg",
-        "posts/2026-10-post-09/05.jpg",
-        "posts/2026-10-post-09/06.jpg",
-        "posts/2026-10-post-09/07.jpg",
-        "posts/2026-10-post-09/08.jpg"
-      ],
-      "publicado": null
-    },
-    {
-      "id": "2026-10-post-11",
-      "tema": "Participação do trabalhador é item da norma (1.5.3.3)",
-      "quando": "2026-10-27T08:30:00-04:00",
-      "aprovado": false,
-      "legenda": "Ouvir o trabalhador é o item 1.5.3.3 da NR-1: a empresa deve adotar mecanismos de participação, de consulta e de comunicação dos riscos do inventário e das medidas do plano de ação. As três alíneas são cumulativas.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-10-post-11/01.jpg",
-        "posts/2026-10-post-11/02.jpg",
-        "posts/2026-10-post-11/03.jpg",
-        "posts/2026-10-post-11/04.jpg",
-        "posts/2026-10-post-11/05.jpg",
-        "posts/2026-10-post-11/06.jpg",
-        "posts/2026-10-post-11/07.jpg",
-        "posts/2026-10-post-11/08.jpg"
-      ],
-      "publicado": null
-    },
-    {
-      "id": "2026-10-trilogia-1",
-      "tema": "Trilogia 1/3: identificação de perigos",
-      "quando": "2026-10-06T08:30:00-04:00",
-      "aprovado": true,
-      "legenda": "Identificar perigo psicossocial é olhar o trabalho, não a pessoa. A NR-1 exige descrever o perigo, a fonte ou circunstância e quem está exposto. Questionário ajuda, mas sozinho não mostra onde, por quê nem para quem.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-10-trilogia-1/01.jpg",
-        "posts/2026-10-trilogia-1/02.jpg",
-        "posts/2026-10-trilogia-1/03.jpg",
-        "posts/2026-10-trilogia-1/04.jpg",
-        "posts/2026-10-trilogia-1/05.jpg",
-        "posts/2026-10-trilogia-1/06.jpg",
-        "posts/2026-10-trilogia-1/07.jpg"
-      ],
-      "publicado": {
-        "media_id": "17931711573404619",
-        "em": "2026-10-06T14:20:15+00:00"
-      }
-    },
-    {
-      "id": "2026-10-trilogia-2",
-      "tema": "Trilogia 2/3: avaliação do risco",
-      "quando": "2026-10-08T08:30:00-04:00",
-      "aprovado": true,
-      "legenda": "Identificar o perigo é só o começo. Pela NR-1, cada risco psicossocial precisa ser avaliado pela combinação de severidade e probabilidade, com critério documentado e análise técnica. Média alta em questionário, sozinha, não define o nível de risco.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-10-trilogia-2/01.jpg",
-        "posts/2026-10-trilogia-2/02.jpg",
-        "posts/2026-10-trilogia-2/03.jpg",
-        "posts/2026-10-trilogia-2/04.jpg",
-        "posts/2026-10-trilogia-2/05.jpg",
-        "posts/2026-10-trilogia-2/06.jpg",
-        "posts/2026-10-trilogia-2/07.jpg",
-        "posts/2026-10-trilogia-2/08.jpg",
-        "posts/2026-10-trilogia-2/09.jpg"
-      ],
-      "publicado": {
-        "media_id": "18100776983056479",
-        "em": "2026-10-08T16:44:12+00:00"
-      }
-    },
-    {
-      "id": "2026-10-trilogia-3",
-      "tema": "Trilogia 3/3: medidas de prevenção",
-      "quando": "2026-10-13T08:30:00-04:00",
-      "aprovado": true,
-      "legenda": "Medida de prevenção não é palestra. A NR-1 manda seguir uma ordem, que vai de eliminar o perigo até a proteção individual, e o Ministério do Trabalho manda priorizar mudanças na organização do trabalho. Cada medida precisa de responsável, prazo e forma de medir o resultado.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "imagens": [
-        "posts/2026-10-trilogia-3/01.jpg",
-        "posts/2026-10-trilogia-3/02.jpg",
-        "posts/2026-10-trilogia-3/03.jpg",
-        "posts/2026-10-trilogia-3/04.jpg",
-        "posts/2026-10-trilogia-3/05.jpg",
-        "posts/2026-10-trilogia-3/06.jpg",
-        "posts/2026-10-trilogia-3/07.jpg",
-        "posts/2026-10-trilogia-3/08.jpg",
-        "posts/2026-10-trilogia-3/09.jpg",
-        "posts/2026-10-trilogia-3/10.jpg"
-      ],
-      "publicado": {
-        "media_id": "17960489661231421",
-        "em": "2026-10-13T12:51:17+00:00"
-      }
-    },
-    {
-      "id": "2026-10-reel-02",
-      "tema": "Reels: os 3 passos da NR-1 (v4A)",
-      "quando": "2026-10-01T13:02:42-04:00",
-      "aprovado": true,
-      "legenda": "Como você avalia o risco psicossocial da sua empresa? Pela NR-1 são três passos: identificar o perigo olhando a organização do trabalho, avaliar o risco com critério documentado e prevenir mudando o que causa o problema, com responsável, prazo e resultado medido.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "video": "posts/2026-10-reel-02/reel.mp4",
-      "capa": "posts/2026-10-reel-02/capa.jpg",
-      "publicado": {
-        "media_id": "18215132620351942",
-        "em": "2026-10-01T17:05:20+00:00"
-      }
-    },
-    {
-      "id": "2026-10-reel-03",
-      "tema": "Reels: saúde mental e produtividade (eletrônica suave; YouTube já publicado à mão: sySKR11IZdA)",
-      "quando": "2026-10-04T12:24:52-04:00",
-      "aprovado": true,
-      "video": "posts/2026-10-reel-03/reel.mp4",
-      "capa": "posts/2026-10-reel-03/capa.jpg",
-      "legenda": "A falta aparece na folha de ponto. O rendimento baixo, não. Entre brasileiros com depressão, trabalhar doente custou cerca de quatro vezes mais que as faltas.\n\nCom uma equipe de psicólogos, a Meta Saúde Ocupacional identifica o que, no trabalho, está adoecendo a equipe, entrega o inventário de riscos e o plano de ação assinados, e acompanha a execução.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": {
-        "media_id": "18128878798858922",
-        "em": "2026-10-04T16:25:58+00:00"
-      }
-    },
-    {
-      "id": "2026-10-post-presenteismo",
-      "tema": "Presenteísmo: o que é, seus efeitos e como identificar (carrossel 10)",
-      "quando": "2026-10-15T08:30:00-04:00",
-      "aprovado": true,
-      "imagens": [
-        "posts/2026-10-post-presenteismo/01.jpg",
-        "posts/2026-10-post-presenteismo/02.jpg",
-        "posts/2026-10-post-presenteismo/03.jpg",
-        "posts/2026-10-post-presenteismo/04.jpg",
-        "posts/2026-10-post-presenteismo/05.jpg",
-        "posts/2026-10-post-presenteismo/06.jpg",
-        "posts/2026-10-post-presenteismo/07.jpg",
-        "posts/2026-10-post-presenteismo/08.jpg",
-        "posts/2026-10-post-presenteismo/09.jpg",
-        "posts/2026-10-post-presenteismo/10.jpg"
-      ],
-      "legenda": "Presenteísmo é ir trabalhar doente. A pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto: na depressão, responde por 81% do custo do tempo produtivo perdido. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": {
-        "media_id": "17865907176677843",
-        "em": "2026-10-15T13:47:15+00:00"
-      }
-    },
-    {
-      "id": "2026-10-reel-04",
-      "tema": "Reels: presenteísmo (eletrônica suave)",
-      "quando": "2026-10-20T08:30:00-04:00",
-      "aprovado": true,
-      "video": "posts/2026-10-reel-04/reel.mp4",
-      "capa": "posts/2026-10-reel-04/capa.jpg",
-      "legenda": "Presenteísmo é ir trabalhar doente. A pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto: na depressão, responde por 81% do custo do tempo produtivo perdido. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "youtube": {
-        "titulo": "Presenteísmo: o que é, seus efeitos e como identificar",
-        "descricao": "Presenteísmo é ir trabalhar doente: a pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nFontes: Johns, Journal of Organizational Behavior, 2010; Stewart et al., JAMA, 2003; Miraglia e Johns, Journal of Occupational Health Psychology, 2016.\n\nExemplos de riscos psicossociais no trabalho: https://metaocupacional.com.br/conteudo/riscos-psicossociais-no-trabalho-exemplos/\n\n#NR1 #riscospsicossociais #saudeocupacional",
-        "tags": [
-          "presenteísmo",
-          "NR-1",
-          "riscos psicossociais",
-          "saúde mental no trabalho",
-          "produtividade",
-          "absenteísmo",
-          "saúde ocupacional",
-          "gestão de pessoas",
-          "RH",
-          "Meta Saúde Ocupacional"
-        ]
-      },
-      "publicado": {
-        "media_id": "17963305698248862",
-        "em": "2026-10-20T16:22:59+00:00"
-      },
-      "youtube_publicado": {
-        "video_id": "BDmxYNH8_K8",
-        "em": "2026-10-20T16:22:59+00:00",
-        "link": "https://youtube.com/shorts/BDmxYNH8_K8"
-      }
-    },
-    {
-      "id": "2026-10-reel-05",
-      "tema": "Reels institucional v5 (vídeo do Luccas, legenda dele)",
-      "quando": "2026-10-05T08:25:28-04:00",
-      "aprovado": true,
-      "video": "posts/2026-10-reel-05/reel.mp4",
-      "capa": "posts/2026-10-reel-05/capa.jpg",
-      "legenda": "Exame em dia, laudo em dia, EPI entregue. Mesmo assim, desde maio de 2026 falta uma parte: o risco psicossocial, que é a forma como o trabalho está organizado. Sobrecarga, ritmo, falta de apoio da chefia, falta de clareza sobre a função, assédio.\n\nEm 2025, o Brasil teve 546.254 afastamentos por transtorno mental (Ministério da Previdência Social). Os primeiros 15 dias de cada um saem do caixa da empresa (Lei 8.213/91, art. 60).\n\nTratar esse risco começa com as pessoas: explicar, ouvir, observar o trabalho acontecendo e devolver o resultado com um plano de ação.\n\nA Meta Saúde Ocupacional faz isso e vai além. Lemos os dados que a empresa já tem, definimos os grupos com ela, ouvimos os funcionários de forma anônima, entrevistamos e observamos o trabalho. Os documentos que a norma pede saem assinados por psicólogos responsáveis técnicos. Apresentamos o resultado à direção, acompanhamos a execução e voltamos para medir o que mudou.\n\nEquipe de psicólogos conveniados em todo o Brasil.\n\nFale com a gente: link na bio.\n\n#NR1 #RiscoPsicossocial #PGR #SaudeOcupacional #SST #SaudeMentalNoTrabalho #GestaoDeRiscos #MetaSaudeOcupacional",
-      "publicado": {
-        "media_id": "18048435422823913",
-        "em": "2026-10-05T12:26:50+00:00"
-      }
-    },
-    {
-      "id": "2026-10-story-diferenca",
-      "tema": "Stories: você sabe a diferença? (9 telas, hoje)",
-      "quando": "2026-10-09T14:15:03-04:00",
-      "aprovado": true,
-      "stories": true,
-      "imagens": [
-        "posts/2026-10-story-diferenca/01.jpg",
-        "posts/2026-10-story-diferenca/02.jpg",
-        "posts/2026-10-story-diferenca/03.jpg",
-        "posts/2026-10-story-diferenca/04.jpg",
-        "posts/2026-10-story-diferenca/05.jpg",
-        "posts/2026-10-story-diferenca/06.jpg",
-        "posts/2026-10-story-diferenca/07.jpg",
-        "posts/2026-10-story-diferenca/08.jpg",
-        "posts/2026-10-story-diferenca/09.jpg"
-      ],
-      "legenda": "",
-      "publicado": {
-        "media_id": "17999335089031387,18074049650726326,17895557103419017,17995449201041917,17975297058140788,18107347961612759,18128289049845300,18074325062739826,18213642079362012",
-        "em": "2026-10-09T18:16:25+00:00"
-      }
-    },
-    {
-      "id": "2026-10-post-diferenca",
-      "tema": "Carrossel: avaliação psicossocial x avaliação de riscos psicossociais (editorial navy, arte aprovada 09/10)",
-      "quando": "2026-10-17T08:30:00-04:00",
-      "aprovado": true,
-      "imagens": [
-        "posts/2026-10-post-diferenca/01.jpg",
-        "posts/2026-10-post-diferenca/02.jpg",
-        "posts/2026-10-post-diferenca/03.jpg",
-        "posts/2026-10-post-diferenca/04.jpg",
-        "posts/2026-10-post-diferenca/05.jpg",
-        "posts/2026-10-post-diferenca/06.jpg",
-        "posts/2026-10-post-diferenca/07.jpg",
-        "posts/2026-10-post-diferenca/08.jpg",
-        "posts/2026-10-post-diferenca/09.jpg"
-      ],
-      "legenda": "Você sabe a diferença? A avaliação psicossocial olha a pessoa: diz se um trabalhador está apto para trabalho em altura ou em espaço confinado. A avaliação de riscos psicossociais olha o trabalho: carga, ritmo, apoio da chefia, assédio. É esta que a NR-1 e a NR-17 exigem, e uma não substitui a outra.\n\nNa Meta Saúde Ocupacional, a avaliação de riscos psicossociais tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": {
-        "media_id": "18130633807828477",
-        "em": "2026-10-17T12:48:41+00:00"
-      }
-    },
-    {
-      "id": "2026-10-story-diferenca-v2",
-      "tema": "Stories: você sabe a diferença? (editorial navy, 9 telas)",
-      "quando": "2026-10-09T15:18:46-04:00",
-      "aprovado": true,
-      "stories": true,
-      "imagens": [
-        "posts/2026-10-story-diferenca-v2/01.jpg",
-        "posts/2026-10-story-diferenca-v2/02.jpg",
-        "posts/2026-10-story-diferenca-v2/03.jpg",
-        "posts/2026-10-story-diferenca-v2/04.jpg",
-        "posts/2026-10-story-diferenca-v2/05.jpg",
-        "posts/2026-10-story-diferenca-v2/06.jpg",
-        "posts/2026-10-story-diferenca-v2/07.jpg",
-        "posts/2026-10-story-diferenca-v2/08.jpg",
-        "posts/2026-10-story-diferenca-v2/09.jpg"
-      ],
-      "legenda": "",
-      "publicado": {
-        "media_id": "18127679320883053,18111457624887872,18286126798292414,18022507658926132,18126379981868927,17951235360324713,17883569805689116,18113776967275984,18114506516023718",
-        "em": "2026-10-09T19:21:53+00:00",
-        "obs": "8 pelo robô + tela 9 à mão (contêiner expirou na 1ª tentativa)"
-      }
-    },
-    {
-      "id": "2026-10-story-stf-sejan",
-      "tema": "Stories: atualização NR-1 (STF 14/10, Sejan), 3 telas",
-      "quando": "2026-10-15T09:47:00-04:00",
-      "aprovado": true,
-      "stories": true,
-      "imagens": [
-        "posts/2026-10-story-stf-sejan/01.jpg",
-        "posts/2026-10-story-stf-sejan/02.jpg",
-        "posts/2026-10-story-stf-sejan/03.jpg"
-      ],
-      "legenda": "",
-      "publicado": {
-        "media_id": "17902155933372876,18128146862482022,18076000778587997",
-        "em": "2026-10-15T13:47:15+00:00"
-      }
-    },
-    {
-      "id": "2026-10-post-stf-sejan",
-      "tema": "Carrossel: atualização NR-1 (STF 14/10, Sejan, 60 dias)",
-      "quando": "2026-10-15T09:48:00-04:00",
-      "aprovado": true,
-      "imagens": [
-        "posts/2026-10-post-stf-sejan/01.jpg",
-        "posts/2026-10-post-stf-sejan/02.jpg",
-        "posts/2026-10-post-stf-sejan/03.jpg",
-        "posts/2026-10-post-stf-sejan/04.jpg",
-        "posts/2026-10-post-stf-sejan/05.jpg",
-        "posts/2026-10-post-stf-sejan/06.jpg"
-      ],
-      "legenda": "Atualização NR-1: o que mudou no STF em 14/10/2026.\n\nA pedido da AGU, o ministro André Mendonça autorizou a Câmara de Promoção de Segurança Jurídica no Ambiente de Negócios (Sejan) a debater as mudanças da norma sobre riscos psicossociais. A Sejan é um fórum sem poder de decisão, com entidades de setores econômicos, trabalhadores e sociedade civil. Enquanto o debate ocorre, a tramitação das três ações (ADPFs 1316, 1333 e 1340) fica suspensa por 60 dias. Os subsídios colhidos voltam ao Nusol, onde a conciliação está em curso desde junho.\n\nO que segue suspenso: as sanções administrativas, até por volta de 22/12, pela prorrogação de setembro. O que não está suspenso: a vigência da NR-1, o dever de identificar, avaliar e gerenciar os riscos psicossociais no PGR, e as ações na Justiça do Trabalho.\n\nFonte: Portal de Notícias do STF, 14/10/2026.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": {
-        "media_id": "18069312803749478",
-        "em": "2026-10-15T13:49:21+00:00"
-      }
-    },
-    {
-      "id": "2026-10-story-questionario",
-      "tema": "Stories: existe questionário oficial da NR-1? (boho, 6 telas)",
-      "quando": "2026-10-22T19:42:42-04:00",
-      "aprovado": true,
-      "stories": true,
-      "imagens": [
-        "posts/2026-10-story-questionario/01.jpg",
-        "posts/2026-10-story-questionario/02.jpg",
-        "posts/2026-10-story-questionario/03.jpg",
-        "posts/2026-10-story-questionario/04.jpg",
-        "posts/2026-10-story-questionario/05.jpg",
-        "posts/2026-10-story-questionario/06.jpg"
-      ],
-      "legenda": "",
-      "publicado": {
-        "media_id": "18025266029870798,18124448116869134,17911285815485894,18195184747393377,17963290428210300,18109540646109325",
-        "em": "2026-10-22T23:46:25+00:00"
-      }
-    },
-    {
-      "id": "2026-10-post-questionario",
-      "tema": "Carrossel boho: existe questionário oficial da NR-1?",
-      "quando": "2026-10-22T19:43:42-04:00",
-      "aprovado": true,
-      "imagens": [
-        "posts/2026-10-post-questionario/01.jpg",
-        "posts/2026-10-post-questionario/02.jpg",
-        "posts/2026-10-post-questionario/03.jpg",
-        "posts/2026-10-post-questionario/04.jpg",
-        "posts/2026-10-post-questionario/05.jpg",
-        "posts/2026-10-post-questionario/06.jpg"
-      ],
-      "legenda": "Não existe questionário oficial da NR-1. O Ministério do Trabalho diz isso por escrito: o órgão \"não define ou não sugere nenhuma metodologia específica\". Quem escolhe o instrumento é a empresa, e ela responde pela escolha.\n\nO que mais chega junto com essa pergunta: não há PDF oficial para baixar; o guia lista treze fatores de risco, e nenhum questionário cobre todos; e aplicar e anexar ao PGR não basta, porque a norma pede identificar, avaliar, classificar, implementar medidas e acompanhar.\n\nRiscos psicossociais no trabalho, do diagnóstico à ação comprovada. Fale com a gente pelo WhatsApp (66) 99917-5512.\n\nFontes no último cartão.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": {
-        "media_id": "18119724892911881",
-        "em": "2026-10-22T23:46:25+00:00"
-      }
-    },
-    {
-      "id": "2026-10-reel-diferenca",
-      "tema": "Reels diorama: avaliação psicossocial x avaliação de riscos psicossociais (trilha Pixabay A)",
-      "quando": "2026-10-23T10:09:03-04:00",
-      "aprovado": true,
-      "video": "posts/2026-10-reel-diferenca/reel.mp4",
-      "capa": "posts/2026-10-reel-diferenca/capa.jpg",
-      "legenda": "Você sabe a diferença entre avaliação psicossocial e avaliação de riscos psicossociais?\n\nA primeira olha a pessoa: um exame que diz se ela está apta para uma função (altura, espaço confinado), dentro do PCMSO. O resultado é um parecer de uma pessoa.\n\nA segunda olha o trabalho: carga, ritmo, metas, apoio da chefia, clareza da função, assédio. Vem da NR-1 com a NR-17; quem responde é o grupo, e o resultado é um inventário de riscos e um plano de ação por setor, dentro do PGR.\n\nUma não substitui a outra. Mas só a segunda entra no PGR.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
-      "publicado": {
-        "media_id": "18127485739881006",
-        "em": "2026-10-23T14:11:56+00:00"
-      }
-    }
-  ]
+ "_leia": "Só publica post com aprovado=true e hora (fuso -04:00 = Cuiabá) já passada. 'publicado' é preenchido pelo robô.",
+ "posts": [
+  {
+   "id": "2026-09-post-01",
+   "tema": "Avaliação psicossocial: pessoa x trabalho",
+   "quando": "2026-09-28T13:21:30-04:00",
+   "aprovado": true,
+   "legenda": "Avaliação psicossocial virou a palavra do ano no RH. O problema é que ela quer dizer duas coisas diferentes.\n\nUma mede a pessoa: estresse, ansiedade, sintoma. A outra mede o trabalho: ritmo, demanda, autonomia, apoio da chefia, clareza da função.\n\nA NR-1 trata da segunda. E uma pesquisa com 80 psicólogos e médicos do trabalho mostrou que, no Brasil, a prática quase sempre foi a primeira.\n\nFontes no último cartão.\n\nHoje, nosso trabalho tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-09-post-01/01.jpg",
+    "posts/2026-09-post-01/02.jpg",
+    "posts/2026-09-post-01/03.jpg",
+    "posts/2026-09-post-01/04.jpg",
+    "posts/2026-09-post-01/05.jpg",
+    "posts/2026-09-post-01/06.jpg",
+    "posts/2026-09-post-01/07.jpg",
+    "posts/2026-09-post-01/08.jpg"
+   ],
+   "publicado": {
+    "media_id": "17987601099118658",
+    "em": "2026-09-28T17:23:13+00:00"
+   }
+  },
+  {
+   "id": "2026-09-post-02",
+   "tema": "Não existe questionário oficial da NR-1",
+   "quando": "2026-09-28T13:43:06-04:00",
+   "aprovado": true,
+   "legenda": "Muita empresa está procurando “o questionário da NR-1”. Ele não existe.\n\nO Ministério do Trabalho deixou isso por escrito e acrescentou que aplicar um questionário, sozinho, não comprova a gestão do risco. O que comprova são três documentos: inventário de riscos, plano de ação e critérios adotados.\n\nSituação em 28/09/2026: o STF prorrogou a suspensão das multas ligadas a esses itens, mas a obrigação continua valendo. O andamento pode ser conferido no portal do STF, ADPF 1316.\n\nFontes no último cartão.\n\nHoje, nosso trabalho tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-09-post-02/01.jpg",
+    "posts/2026-09-post-02/02.jpg",
+    "posts/2026-09-post-02/03.jpg",
+    "posts/2026-09-post-02/04.jpg",
+    "posts/2026-09-post-02/05.jpg",
+    "posts/2026-09-post-02/06.jpg",
+    "posts/2026-09-post-02/07.jpg",
+    "posts/2026-09-post-02/08.jpg"
+   ],
+   "publicado": {
+    "media_id": "18235838686317270",
+    "em": "2026-09-28T17:44:20+00:00"
+   }
+  },
+  {
+   "id": "2026-09-post-03",
+   "tema": "NTEP: a presunção do INSS",
+   "quando": "2026-09-28T13:59:06-04:00",
+   "aprovado": true,
+   "legenda": "Saúde ocupacional não é só exame admissional.\n\nDesde 2007, o INSS pode presumir que um afastamento foi causado pelo trabalho, a partir do cruzamento entre a doença e a atividade da empresa. É o NTEP. Quando isso acontece, o ônus se inverte, e a defesa da empresa depende do que ela documentou antes.\n\nFontes no último cartão.\n\n#NR1 #saudeocupacional #riscospsicossociais",
+   "imagens": [
+    "posts/2026-09-post-03/01.jpg",
+    "posts/2026-09-post-03/02.jpg",
+    "posts/2026-09-post-03/03.jpg",
+    "posts/2026-09-post-03/04.jpg",
+    "posts/2026-09-post-03/05.jpg",
+    "posts/2026-09-post-03/06.jpg",
+    "posts/2026-09-post-03/07.jpg",
+    "posts/2026-09-post-03/08.jpg"
+   ],
+   "publicado": {
+    "media_id": "18395010739201159",
+    "em": "2026-09-28T18:01:00+00:00"
+   },
+   "substituido_por": "2026-09-post-03b",
+   "excluido": "2026-09-28: tinha 'de forma automática' no cartão 2; substituído por 2026-09-post-03b"
+  },
+  {
+   "id": "2026-09-reel-01",
+   "tema": "Reels: Adivinha quem prova?",
+   "quando": "2026-09-28T14:21:10-04:00",
+   "aprovado": true,
+   "legenda": "Um funcionário sai de licença por depressão. Dependendo do ramo da empresa, o INSS presume que a causa foi o trabalho, e a defesa depende do que a empresa documentou antes.\n\nEm 80 segundos: o NTEP, a conta do afastamento acidentário, o que os testes mais usados no Brasil realmente medem e o que o Ministério do Trabalho aceita como prova.\n\nFontes na tela.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "video": "posts/2026-09-reel-01/reel.mp4",
+   "capa": "posts/2026-09-reel-01/capa.jpg",
+   "publicado": {
+    "media_id": "18097200224547739",
+    "em": "2026-09-28T18:23:07+00:00"
+   }
+  },
+  {
+   "id": "2026-09-post-03b",
+   "tema": "NTEP: a presunção do INSS (versão corrigida)",
+   "quando": "2026-09-28T14:12:54-04:00",
+   "aprovado": true,
+   "legenda": "Saúde ocupacional não é só exame admissional.\n\nDesde 2007, o INSS pode presumir que um afastamento foi causado pelo trabalho, a partir do cruzamento entre a doença e a atividade da empresa. É o NTEP. A perícia presume o nexo, a empresa pode contestar em 15 dias, e o ônus se inverte: a defesa da empresa depende do que ela documentou antes.\n\nFontes no último cartão.\n\n#NR1 #saudeocupacional #riscospsicossociais",
+   "imagens": [
+    "posts/2026-09-post-03b/01.jpg",
+    "posts/2026-09-post-03b/02.jpg",
+    "posts/2026-09-post-03b/03.jpg",
+    "posts/2026-09-post-03b/04.jpg",
+    "posts/2026-09-post-03b/05.jpg",
+    "posts/2026-09-post-03b/06.jpg",
+    "posts/2026-09-post-03b/07.jpg",
+    "posts/2026-09-post-03b/08.jpg"
+   ],
+   "publicado": {
+    "media_id": "17875396131573870",
+    "em": "2026-09-28T18:14:59+00:00"
+   }
+  },
+  {
+   "id": "2026-10-post-07",
+   "tema": "Afastamentos por burnout: 1.760 em 2023, 6.985 em 2025",
+   "quando": "2026-10-13T08:30:00-04:00",
+   "aprovado": false,
+   "legenda": "Afastamentos por burnout passaram de 1.760 em 2023 para 6.985 em 2025, até novembro, no levantamento da ANAMT com dados oficiais do INSS. Burnout, porém, depende de nexo apurado caso a caso: não é automático.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-10-post-07/01.jpg",
+    "posts/2026-10-post-07/02.jpg",
+    "posts/2026-10-post-07/03.jpg",
+    "posts/2026-10-post-07/04.jpg",
+    "posts/2026-10-post-07/05.jpg",
+    "posts/2026-10-post-07/06.jpg",
+    "posts/2026-10-post-07/07.jpg",
+    "posts/2026-10-post-07/08.jpg"
+   ],
+   "publicado": null
+  },
+  {
+   "id": "2026-10-post-09",
+   "tema": "Por que perguntar “você sofre assédio?” mede pouco",
+   "quando": "2026-10-22T08:30:00-04:00",
+   "aprovado": false,
+   "legenda": "Perguntar “você sofre assédio?” mede menos do que listar os atos: numa meta-análise de 86 amostras em 24 países, a autorrotulagem com definição apontou cerca de 11%, e o inventário de atos, cerca de 15%.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-10-post-09/01.jpg",
+    "posts/2026-10-post-09/02.jpg",
+    "posts/2026-10-post-09/03.jpg",
+    "posts/2026-10-post-09/04.jpg",
+    "posts/2026-10-post-09/05.jpg",
+    "posts/2026-10-post-09/06.jpg",
+    "posts/2026-10-post-09/07.jpg",
+    "posts/2026-10-post-09/08.jpg"
+   ],
+   "publicado": null
+  },
+  {
+   "id": "2026-10-post-11",
+   "tema": "Participação do trabalhador é item da norma (1.5.3.3)",
+   "quando": "2026-10-27T08:30:00-04:00",
+   "aprovado": false,
+   "legenda": "Ouvir o trabalhador é o item 1.5.3.3 da NR-1: a empresa deve adotar mecanismos de participação, de consulta e de comunicação dos riscos do inventário e das medidas do plano de ação. As três alíneas são cumulativas.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-10-post-11/01.jpg",
+    "posts/2026-10-post-11/02.jpg",
+    "posts/2026-10-post-11/03.jpg",
+    "posts/2026-10-post-11/04.jpg",
+    "posts/2026-10-post-11/05.jpg",
+    "posts/2026-10-post-11/06.jpg",
+    "posts/2026-10-post-11/07.jpg",
+    "posts/2026-10-post-11/08.jpg"
+   ],
+   "publicado": null
+  },
+  {
+   "id": "2026-10-trilogia-1",
+   "tema": "Trilogia 1/3: identificação de perigos",
+   "quando": "2026-10-06T08:30:00-04:00",
+   "aprovado": true,
+   "legenda": "Identificar perigo psicossocial é olhar o trabalho, não a pessoa. A NR-1 exige descrever o perigo, a fonte ou circunstância e quem está exposto. Questionário ajuda, mas sozinho não mostra onde, por quê nem para quem.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-10-trilogia-1/01.jpg",
+    "posts/2026-10-trilogia-1/02.jpg",
+    "posts/2026-10-trilogia-1/03.jpg",
+    "posts/2026-10-trilogia-1/04.jpg",
+    "posts/2026-10-trilogia-1/05.jpg",
+    "posts/2026-10-trilogia-1/06.jpg",
+    "posts/2026-10-trilogia-1/07.jpg"
+   ],
+   "publicado": {
+    "media_id": "17931711573404619",
+    "em": "2026-10-06T14:20:15+00:00"
+   }
+  },
+  {
+   "id": "2026-10-trilogia-2",
+   "tema": "Trilogia 2/3: avaliação do risco",
+   "quando": "2026-10-08T08:30:00-04:00",
+   "aprovado": true,
+   "legenda": "Identificar o perigo é só o começo. Pela NR-1, cada risco psicossocial precisa ser avaliado pela combinação de severidade e probabilidade, com critério documentado e análise técnica. Média alta em questionário, sozinha, não define o nível de risco.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-10-trilogia-2/01.jpg",
+    "posts/2026-10-trilogia-2/02.jpg",
+    "posts/2026-10-trilogia-2/03.jpg",
+    "posts/2026-10-trilogia-2/04.jpg",
+    "posts/2026-10-trilogia-2/05.jpg",
+    "posts/2026-10-trilogia-2/06.jpg",
+    "posts/2026-10-trilogia-2/07.jpg",
+    "posts/2026-10-trilogia-2/08.jpg",
+    "posts/2026-10-trilogia-2/09.jpg"
+   ],
+   "publicado": {
+    "media_id": "18100776983056479",
+    "em": "2026-10-08T16:44:12+00:00"
+   }
+  },
+  {
+   "id": "2026-10-trilogia-3",
+   "tema": "Trilogia 3/3: medidas de prevenção",
+   "quando": "2026-10-13T08:30:00-04:00",
+   "aprovado": true,
+   "legenda": "Medida de prevenção não é palestra. A NR-1 manda seguir uma ordem, que vai de eliminar o perigo até a proteção individual, e o Ministério do Trabalho manda priorizar mudanças na organização do trabalho. Cada medida precisa de responsável, prazo e forma de medir o resultado.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "imagens": [
+    "posts/2026-10-trilogia-3/01.jpg",
+    "posts/2026-10-trilogia-3/02.jpg",
+    "posts/2026-10-trilogia-3/03.jpg",
+    "posts/2026-10-trilogia-3/04.jpg",
+    "posts/2026-10-trilogia-3/05.jpg",
+    "posts/2026-10-trilogia-3/06.jpg",
+    "posts/2026-10-trilogia-3/07.jpg",
+    "posts/2026-10-trilogia-3/08.jpg",
+    "posts/2026-10-trilogia-3/09.jpg",
+    "posts/2026-10-trilogia-3/10.jpg"
+   ],
+   "publicado": {
+    "media_id": "17960489661231421",
+    "em": "2026-10-13T12:51:17+00:00"
+   }
+  },
+  {
+   "id": "2026-10-reel-02",
+   "tema": "Reels: os 3 passos da NR-1 (v4A)",
+   "quando": "2026-10-01T13:02:42-04:00",
+   "aprovado": true,
+   "legenda": "Como você avalia o risco psicossocial da sua empresa? Pela NR-1 são três passos: identificar o perigo olhando a organização do trabalho, avaliar o risco com critério documentado e prevenir mudando o que causa o problema, com responsável, prazo e resultado medido.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "video": "posts/2026-10-reel-02/reel.mp4",
+   "capa": "posts/2026-10-reel-02/capa.jpg",
+   "publicado": {
+    "media_id": "18215132620351942",
+    "em": "2026-10-01T17:05:20+00:00"
+   }
+  },
+  {
+   "id": "2026-10-reel-03",
+   "tema": "Reels: saúde mental e produtividade (eletrônica suave; YouTube já publicado à mão: sySKR11IZdA)",
+   "quando": "2026-10-04T12:24:52-04:00",
+   "aprovado": true,
+   "video": "posts/2026-10-reel-03/reel.mp4",
+   "capa": "posts/2026-10-reel-03/capa.jpg",
+   "legenda": "A falta aparece na folha de ponto. O rendimento baixo, não. Entre brasileiros com depressão, trabalhar doente custou cerca de quatro vezes mais que as faltas.\n\nCom uma equipe de psicólogos, a Meta Saúde Ocupacional identifica o que, no trabalho, está adoecendo a equipe, entrega o inventário de riscos e o plano de ação assinados, e acompanha a execução.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "publicado": {
+    "media_id": "18128878798858922",
+    "em": "2026-10-04T16:25:58+00:00"
+   }
+  },
+  {
+   "id": "2026-10-post-presenteismo",
+   "tema": "Presenteísmo: o que é, seus efeitos e como identificar (carrossel 10)",
+   "quando": "2026-10-15T08:30:00-04:00",
+   "aprovado": true,
+   "imagens": [
+    "posts/2026-10-post-presenteismo/01.jpg",
+    "posts/2026-10-post-presenteismo/02.jpg",
+    "posts/2026-10-post-presenteismo/03.jpg",
+    "posts/2026-10-post-presenteismo/04.jpg",
+    "posts/2026-10-post-presenteismo/05.jpg",
+    "posts/2026-10-post-presenteismo/06.jpg",
+    "posts/2026-10-post-presenteismo/07.jpg",
+    "posts/2026-10-post-presenteismo/08.jpg",
+    "posts/2026-10-post-presenteismo/09.jpg",
+    "posts/2026-10-post-presenteismo/10.jpg"
+   ],
+   "legenda": "Presenteísmo é ir trabalhar doente. A pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto: na depressão, responde por 81% do custo do tempo produtivo perdido. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "publicado": {
+    "media_id": "17865907176677843",
+    "em": "2026-10-15T13:47:15+00:00"
+   }
+  },
+  {
+   "id": "2026-10-reel-04",
+   "tema": "Reels: presenteísmo (eletrônica suave)",
+   "quando": "2026-10-20T08:30:00-04:00",
+   "aprovado": true,
+   "video": "posts/2026-10-reel-04/reel.mp4",
+   "capa": "posts/2026-10-reel-04/capa.jpg",
+   "legenda": "Presenteísmo é ir trabalhar doente. A pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto: na depressão, responde por 81% do custo do tempo produtivo perdido. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nA NR-1 e a NR-17 exigem a avaliação de riscos psicossociais. Na Meta Saúde Ocupacional, ela tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "youtube": {
+    "titulo": "Presenteísmo: o que é, seus efeitos e como identificar",
+    "descricao": "Presenteísmo é ir trabalhar doente: a pessoa está presente, mas tende a render menos, e isso não aparece na folha de ponto. Para identificar, observe a rotina, ouça a equipe sobre as condições de trabalho e olhe para os fatores ligados a ele, boa parte na organização do trabalho.\n\nFontes: Johns, Journal of Organizational Behavior, 2010; Stewart et al., JAMA, 2003; Miraglia e Johns, Journal of Occupational Health Psychology, 2016.\n\nExemplos de riscos psicossociais no trabalho: https://metaocupacional.com.br/conteudo/riscos-psicossociais-no-trabalho-exemplos/\n\n#NR1 #riscospsicossociais #saudeocupacional",
+    "tags": [
+     "presenteísmo",
+     "NR-1",
+     "riscos psicossociais",
+     "saúde mental no trabalho",
+     "produtividade",
+     "absenteísmo",
+     "saúde ocupacional",
+     "gestão de pessoas",
+     "RH",
+     "Meta Saúde Ocupacional"
+    ]
+   },
+   "publicado": {
+    "media_id": "17963305698248862",
+    "em": "2026-10-20T16:22:59+00:00"
+   },
+   "youtube_publicado": {
+    "video_id": "BDmxYNH8_K8",
+    "em": "2026-10-20T16:22:59+00:00",
+    "link": "https://youtube.com/shorts/BDmxYNH8_K8"
+   }
+  },
+  {
+   "id": "2026-10-reel-05",
+   "tema": "Reels institucional v5 (vídeo do Luccas, legenda dele)",
+   "quando": "2026-10-05T08:25:28-04:00",
+   "aprovado": true,
+   "video": "posts/2026-10-reel-05/reel.mp4",
+   "capa": "posts/2026-10-reel-05/capa.jpg",
+   "legenda": "Exame em dia, laudo em dia, EPI entregue. Mesmo assim, desde maio de 2026 falta uma parte: o risco psicossocial, que é a forma como o trabalho está organizado. Sobrecarga, ritmo, falta de apoio da chefia, falta de clareza sobre a função, assédio.\n\nEm 2025, o Brasil teve 546.254 afastamentos por transtorno mental (Ministério da Previdência Social). Os primeiros 15 dias de cada um saem do caixa da empresa (Lei 8.213/91, art. 60).\n\nTratar esse risco começa com as pessoas: explicar, ouvir, observar o trabalho acontecendo e devolver o resultado com um plano de ação.\n\nA Meta Saúde Ocupacional faz isso e vai além. Lemos os dados que a empresa já tem, definimos os grupos com ela, ouvimos os funcionários de forma anônima, entrevistamos e observamos o trabalho. Os documentos que a norma pede saem assinados por psicólogos responsáveis técnicos. Apresentamos o resultado à direção, acompanhamos a execução e voltamos para medir o que mudou.\n\nEquipe de psicólogos conveniados em todo o Brasil.\n\nFale com a gente: link na bio.\n\n#NR1 #RiscoPsicossocial #PGR #SaudeOcupacional #SST #SaudeMentalNoTrabalho #GestaoDeRiscos #MetaSaudeOcupacional",
+   "publicado": {
+    "media_id": "18048435422823913",
+    "em": "2026-10-05T12:26:50+00:00"
+   }
+  },
+  {
+   "id": "2026-10-story-diferenca",
+   "tema": "Stories: você sabe a diferença? (9 telas, hoje)",
+   "quando": "2026-10-09T14:15:03-04:00",
+   "aprovado": true,
+   "stories": true,
+   "imagens": [
+    "posts/2026-10-story-diferenca/01.jpg",
+    "posts/2026-10-story-diferenca/02.jpg",
+    "posts/2026-10-story-diferenca/03.jpg",
+    "posts/2026-10-story-diferenca/04.jpg",
+    "posts/2026-10-story-diferenca/05.jpg",
+    "posts/2026-10-story-diferenca/06.jpg",
+    "posts/2026-10-story-diferenca/07.jpg",
+    "posts/2026-10-story-diferenca/08.jpg",
+    "posts/2026-10-story-diferenca/09.jpg"
+   ],
+   "legenda": "",
+   "publicado": {
+    "media_id": "17999335089031387,18074049650726326,17895557103419017,17995449201041917,17975297058140788,18107347961612759,18128289049845300,18074325062739826,18213642079362012",
+    "em": "2026-10-09T18:16:25+00:00"
+   }
+  },
+  {
+   "id": "2026-10-post-diferenca",
+   "tema": "Carrossel: avaliação psicossocial x avaliação de riscos psicossociais (editorial navy, arte aprovada 09/10)",
+   "quando": "2026-10-17T08:30:00-04:00",
+   "aprovado": true,
+   "imagens": [
+    "posts/2026-10-post-diferenca/01.jpg",
+    "posts/2026-10-post-diferenca/02.jpg",
+    "posts/2026-10-post-diferenca/03.jpg",
+    "posts/2026-10-post-diferenca/04.jpg",
+    "posts/2026-10-post-diferenca/05.jpg",
+    "posts/2026-10-post-diferenca/06.jpg",
+    "posts/2026-10-post-diferenca/07.jpg",
+    "posts/2026-10-post-diferenca/08.jpg",
+    "posts/2026-10-post-diferenca/09.jpg"
+   ],
+   "legenda": "Você sabe a diferença? A avaliação psicossocial olha a pessoa: diz se um trabalhador está apto para trabalho em altura ou em espaço confinado. A avaliação de riscos psicossociais olha o trabalho: carga, ritmo, apoio da chefia, assédio. É esta que a NR-1 e a NR-17 exigem, e uma não substitui a outra.\n\nNa Meta Saúde Ocupacional, a avaliação de riscos psicossociais tem quatro etapas: identificar, avaliar, orientar e comprovar.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "publicado": {
+    "media_id": "18130633807828477",
+    "em": "2026-10-17T12:48:41+00:00"
+   }
+  },
+  {
+   "id": "2026-10-story-diferenca-v2",
+   "tema": "Stories: você sabe a diferença? (editorial navy, 9 telas)",
+   "quando": "2026-10-09T15:18:46-04:00",
+   "aprovado": true,
+   "stories": true,
+   "imagens": [
+    "posts/2026-10-story-diferenca-v2/01.jpg",
+    "posts/2026-10-story-diferenca-v2/02.jpg",
+    "posts/2026-10-story-diferenca-v2/03.jpg",
+    "posts/2026-10-story-diferenca-v2/04.jpg",
+    "posts/2026-10-story-diferenca-v2/05.jpg",
+    "posts/2026-10-story-diferenca-v2/06.jpg",
+    "posts/2026-10-story-diferenca-v2/07.jpg",
+    "posts/2026-10-story-diferenca-v2/08.jpg",
+    "posts/2026-10-story-diferenca-v2/09.jpg"
+   ],
+   "legenda": "",
+   "publicado": {
+    "media_id": "18127679320883053,18111457624887872,18286126798292414,18022507658926132,18126379981868927,17951235360324713,17883569805689116,18113776967275984,18114506516023718",
+    "em": "2026-10-09T19:21:53+00:00",
+    "obs": "8 pelo robô + tela 9 à mão (contêiner expirou na 1ª tentativa)"
+   }
+  },
+  {
+   "id": "2026-10-story-stf-sejan",
+   "tema": "Stories: atualização NR-1 (STF 14/10, Sejan), 3 telas",
+   "quando": "2026-10-15T09:47:00-04:00",
+   "aprovado": true,
+   "stories": true,
+   "imagens": [
+    "posts/2026-10-story-stf-sejan/01.jpg",
+    "posts/2026-10-story-stf-sejan/02.jpg",
+    "posts/2026-10-story-stf-sejan/03.jpg"
+   ],
+   "legenda": "",
+   "publicado": {
+    "media_id": "17902155933372876,18128146862482022,18076000778587997",
+    "em": "2026-10-15T13:47:15+00:00"
+   }
+  },
+  {
+   "id": "2026-10-post-stf-sejan",
+   "tema": "Carrossel: atualização NR-1 (STF 14/10, Sejan, 60 dias)",
+   "quando": "2026-10-15T09:48:00-04:00",
+   "aprovado": true,
+   "imagens": [
+    "posts/2026-10-post-stf-sejan/01.jpg",
+    "posts/2026-10-post-stf-sejan/02.jpg",
+    "posts/2026-10-post-stf-sejan/03.jpg",
+    "posts/2026-10-post-stf-sejan/04.jpg",
+    "posts/2026-10-post-stf-sejan/05.jpg",
+    "posts/2026-10-post-stf-sejan/06.jpg"
+   ],
+   "legenda": "Atualização NR-1: o que mudou no STF em 14/10/2026.\n\nA pedido da AGU, o ministro André Mendonça autorizou a Câmara de Promoção de Segurança Jurídica no Ambiente de Negócios (Sejan) a debater as mudanças da norma sobre riscos psicossociais. A Sejan é um fórum sem poder de decisão, com entidades de setores econômicos, trabalhadores e sociedade civil. Enquanto o debate ocorre, a tramitação das três ações (ADPFs 1316, 1333 e 1340) fica suspensa por 60 dias. Os subsídios colhidos voltam ao Nusol, onde a conciliação está em curso desde junho.\n\nO que segue suspenso: as sanções administrativas, até por volta de 22/12, pela prorrogação de setembro. O que não está suspenso: a vigência da NR-1, o dever de identificar, avaliar e gerenciar os riscos psicossociais no PGR, e as ações na Justiça do Trabalho.\n\nFonte: Portal de Notícias do STF, 14/10/2026.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "publicado": {
+    "media_id": "18069312803749478",
+    "em": "2026-10-15T13:49:21+00:00"
+   }
+  },
+  {
+   "id": "2026-10-story-questionario",
+   "tema": "Stories: existe questionário oficial da NR-1? (boho, 6 telas)",
+   "quando": "2026-10-22T19:42:42-04:00",
+   "aprovado": true,
+   "stories": true,
+   "imagens": [
+    "posts/2026-10-story-questionario/01.jpg",
+    "posts/2026-10-story-questionario/02.jpg",
+    "posts/2026-10-story-questionario/03.jpg",
+    "posts/2026-10-story-questionario/04.jpg",
+    "posts/2026-10-story-questionario/05.jpg",
+    "posts/2026-10-story-questionario/06.jpg"
+   ],
+   "legenda": "",
+   "publicado": {
+    "media_id": "18025266029870798,18124448116869134,17911285815485894,18195184747393377,17963290428210300,18109540646109325",
+    "em": "2026-10-22T23:46:25+00:00"
+   }
+  },
+  {
+   "id": "2026-10-post-questionario",
+   "tema": "Carrossel boho: existe questionário oficial da NR-1?",
+   "quando": "2026-10-22T19:43:42-04:00",
+   "aprovado": true,
+   "imagens": [
+    "posts/2026-10-post-questionario/01.jpg",
+    "posts/2026-10-post-questionario/02.jpg",
+    "posts/2026-10-post-questionario/03.jpg",
+    "posts/2026-10-post-questionario/04.jpg",
+    "posts/2026-10-post-questionario/05.jpg",
+    "posts/2026-10-post-questionario/06.jpg"
+   ],
+   "legenda": "Não existe questionário oficial da NR-1. O Ministério do Trabalho diz isso por escrito: o órgão \"não define ou não sugere nenhuma metodologia específica\". Quem escolhe o instrumento é a empresa, e ela responde pela escolha.\n\nO que mais chega junto com essa pergunta: não há PDF oficial para baixar; o guia lista treze fatores de risco, e nenhum questionário cobre todos; e aplicar e anexar ao PGR não basta, porque a norma pede identificar, avaliar, classificar, implementar medidas e acompanhar.\n\nRiscos psicossociais no trabalho, do diagnóstico à ação comprovada. Fale com a gente pelo WhatsApp (66) 99917-5512.\n\nFontes no último cartão.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "publicado": {
+    "media_id": "18119724892911881",
+    "em": "2026-10-22T23:46:25+00:00"
+   }
+  },
+  {
+   "id": "2026-10-reel-diferenca",
+   "tema": "Reels diorama: avaliação psicossocial x avaliação de riscos psicossociais (trilha Pixabay A)",
+   "quando": "2026-10-23T10:09:03-04:00",
+   "aprovado": true,
+   "video": "posts/2026-10-reel-diferenca/reel.mp4",
+   "capa": "posts/2026-10-reel-diferenca/capa.jpg",
+   "legenda": "Você sabe a diferença entre avaliação psicossocial e avaliação de riscos psicossociais?\n\nA primeira olha a pessoa: um exame que diz se ela está apta para uma função (altura, espaço confinado), dentro do PCMSO. O resultado é um parecer de uma pessoa.\n\nA segunda olha o trabalho: carga, ritmo, metas, apoio da chefia, clareza da função, assédio. Vem da NR-1 com a NR-17; quem responde é o grupo, e o resultado é um inventário de riscos e um plano de ação por setor, dentro do PGR.\n\nUma não substitui a outra. Mas só a segunda entra no PGR.\n\nFale com a gente pelo WhatsApp (66) 99917-5512.\n\n#NR1 #riscospsicossociais #saudeocupacional",
+   "publicado": {
+    "media_id": "18127485739881006",
+    "em": "2026-10-23T14:11:56+00:00"
+   }
+  },
+  {
+   "id": "2026-10-reel-nr1-o-que-mudou",
+   "tema": "Reels lambe-lambe: NR-1, o que mudou (v5, 1:32, voz Orus, trilha pós-punk)",
+   "quando": "2026-10-26T13:30:53-04:00",
+   "aprovado": true,
+   "video": "posts/2026-10-reel-nr1-o-que-mudou/reel.mp4",
+   "capa": "posts/2026-10-reel-nr1-o-que-mudou/capa.jpg",
+   "legenda": "A NR-1 mudou. A sua empresa já se adequou?\n\nDesde maio de 2026, a norma que organiza a segurança no trabalho exige que toda empresa com empregado registrado avalie também os riscos psicossociais: metas, jornada, pressão, assédio. Vale para empresa grande e pequena.\n\nO que a empresa precisa ter:\n1. Inventário de riscos\n2. Plano de ação\n3. Os critérios usados na avaliação\n\nOs três com data e assinatura do responsável. E, segundo o Ministério do Trabalho, só aplicar questionário não basta: é preciso ouvir quem trabalha, observar o trabalho e agir.\n\nPor enquanto, a multa está suspensa pelo STF. A obrigação continua, e a empresa segue respondendo à fiscalização, à Justiça do Trabalho e ao INSS.\n\nMulta suspensa não é norma suspensa.\n\nFale com a gente pelo link na bio.\n\nFontes: Portaria MTE nº 1.419/2024; MTE, Perguntas e Respostas sobre o capítulo 1.5 da NR-1 (abr/2026); STF, ADPF 1316.\n\n#NR1 #RiscosPsicossociais #SaudeOcupacional #SegurancaDoTrabalho #PGR #GestaoDeRiscos #RH #SST"
+  }
+ ]
 }
