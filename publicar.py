@@ -87,8 +87,10 @@ def publicar_reels(tk, post):
 def publicar_stories(tk, post):
     """Cada imagem vira um Story, na ordem; devolve os ids separados por vírgula."""
     ids = []
-    for p in post["imagens"]:
-        c = chamar("POST", f"{IG_ID}/media", media_type="STORIES", image_url=PAGES + p, access_token=tk)["id"]
+    # 03/11/2026: Story de vídeo (video_story, até 60 s) ou imagens, na ordem.
+    midias = [("video_url", post["video_story"])] if post.get("video_story") else [("image_url", p) for p in post["imagens"]]
+    for campo, p in midias:
+        c = chamar("POST", f"{IG_ID}/media", media_type="STORIES", access_token=tk, **{campo: PAGES + p})["id"]
         esperar_pronto(tk, c)
         # 22/10/2026: a API respondeu "Media Not Found" logo depois de FINISHED; tenta de novo.
         for tentativa in range(4):
