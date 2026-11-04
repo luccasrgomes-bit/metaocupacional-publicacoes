@@ -543,7 +543,7 @@
   {
    "id": "2026-11-reel-onca-sombra",
    "tema": "Reels A sombra: empresa condenada por ataque de onca (noir, tiras de jornal, voz Charon, trilha Dark Tension, 49 s)",
-   "quando": "2026-11-04T16:40:00-03:00",
+   "quando": "2026-11-04T15:00:00-03:00",
    "aprovado": true,
    "video": "posts/2026-11-reel-onca-sombra/reel.mp4",
    "capa": "posts/2026-11-reel-onca-sombra/capa.jpg",
@@ -564,7 +564,7 @@
   {
    "id": "2026-11-story-onca-sombra",
    "tema": "Story de video: Reel A sombra (49 s)",
-   "quando": "2026-11-04T16:41:00-03:00",
+   "quando": "2026-11-04T15:01:00-03:00",
    "aprovado": true,
    "stories": true,
    "video_story": "posts/2026-11-reel-onca-sombra/reel.mp4"
