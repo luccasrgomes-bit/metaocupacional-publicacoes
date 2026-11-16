@@ -79,6 +79,11 @@ def publicar_reels(tk, post):
                   share_to_feed="true", access_token=tk)
     if post.get("capa"):
         params["cover_url"] = PAGES + post["capa"]
+    # 16/11/2026: "teste": "MANUAL" ou "SS_PERFORMANCE" publica como Reel de teste (só não seguidores).
+    # A API não promove o teste para o perfil; com SS_PERFORMANCE o próprio Instagram promove se for bem.
+    if post.get("teste"):
+        params["trial_params"] = json.dumps({"graduation_strategy": post["teste"]})
+        params.pop("share_to_feed")
     c = chamar("POST", f"{IG_ID}/media", **params)["id"]
     esperar_pronto(tk, c, tentativas=120)  # vídeo processa mais devagar: até 10 min
     return chamar("POST", f"{IG_ID}/media_publish", creation_id=c, access_token=tk)["id"]
