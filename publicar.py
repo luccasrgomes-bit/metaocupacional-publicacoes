@@ -183,6 +183,97 @@ def pendentes_youtube(agenda, agora):
     return True
 
 
+LI_ORG = "urn:li:organization:145064076"  # página Meta Saúde Ocupacional
+LI_VERSAO = "202610"
+
+
+def li_token():
+    ids = [os.environ.get(k) for k in ("LI_CLIENT_ID", "LI_CLIENT_SECRET", "LI_REFRESH_TOKEN")]
+    if not all(ids):
+        return None
+    dados = urllib.parse.urlencode(dict(grant_type="refresh_token", refresh_token=ids[2],
+                                        client_id=ids[0], client_secret=ids[1])).encode()
+    with urllib.request.urlopen("https://www.linkedin.com/oauth/v2/accessToken", data=dados, timeout=60) as r:
+        return json.load(r)["access_token"]
+
+
+def li_texto(t):
+    """O LinkedIn lê o texto do post como 'little text': estes caracteres precisam de barra invertida."""
+    return "".join("\\" + c if c in "\\|{}@[]()<>#*_~" else c for c in t)
+
+
+def li_chamar(li, metodo, caminho, corpo=None):
+    req = urllib.request.Request("https://api.linkedin.com/rest/" + caminho, method=metodo,
+                                 data=json.dumps(corpo).encode() if corpo is not None else None,
+                                 headers={"Authorization": "Bearer " + li, "LinkedIn-Version": LI_VERSAO,
+                                          "X-Restli-Protocol-Version": "2.0.0", "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            texto = r.read().decode()
+            return (json.loads(texto) if texto else {}), r.headers
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"LinkedIn {metodo} {caminho} -> {e.code}: {e.read().decode()[:400]}") from None
+
+
+def publicar_linkedin(li, post):
+    """Vídeo pela Videos API (envio em partes), depois o post da página e, se houver, o comentário com o link."""
+    video = (RAIZ / post["video"]).read_bytes()
+    ini, _ = li_chamar(li, "POST", "videos?action=initializeUpload", {"initializeUploadRequest": {
+        "owner": LI_ORG, "fileSizeBytes": len(video), "uploadCaptions": False, "uploadThumbnail": False}})
+    v = ini["value"]
+    etags = []
+    for parte in v["uploadInstructions"]:
+        pedaco = video[parte["firstByte"]:parte["lastByte"] + 1]
+        req = urllib.request.Request(parte["uploadUrl"], data=pedaco, method="PUT",
+                                     headers={"Content-Type": "application/octet-stream"})
+        with urllib.request.urlopen(req, timeout=600) as r:
+            etags.append(r.headers["ETag"])
+    li_chamar(li, "POST", "videos?action=finalizeUpload", {"finalizeUploadRequest": {
+        "video": v["video"], "uploadToken": v.get("uploadToken", ""), "uploadedPartIds": etags}})
+    for _ in range(60):  # o LinkedIn processa o vídeo antes de aceitar o post
+        st, _ = li_chamar(li, "GET", "videos/" + urllib.parse.quote(v["video"], safe=""))
+        if st.get("status") == "AVAILABLE":
+            break
+        if st.get("status") == "PROCESSING_FAILED":
+            raise RuntimeError("LinkedIn: processamento do vídeo falhou")
+        time.sleep(10)
+    meta = post["linkedin"]
+    _, cab = li_chamar(li, "POST", "posts", {
+        "author": LI_ORG, "commentary": li_texto(meta["texto"]), "visibility": "PUBLIC",
+        "distribution": {"feedDistribution": "MAIN_FEED", "targetEntities": [], "thirdPartyDistributionChannels": []},
+        "content": {"media": {"title": meta.get("titulo", ""), "id": v["video"]}},
+        "lifecycleState": "PUBLISHED", "isReshareDisabledByAuthor": False})
+    urn = cab.get("x-restli-id")
+    if meta.get("comentario") and urn:
+        try:  # link no comentário, não no corpo (no corpo o alcance cai)
+            li_chamar(li, "POST", "socialActions/" + urllib.parse.quote(urn, safe="") + "/comments",
+                      {"actor": LI_ORG, "object": urn, "message": {"text": meta["comentario"]}})
+        except Exception as e:
+            print("  LinkedIn: post saiu, comentário falhou:", str(e)[:200])
+    return urn
+
+
+def pendentes_linkedin(agenda, agora):
+    """Publica na página do LinkedIn o que já saiu no Instagram e tem o bloco "linkedin"."""
+    fila = [p for p in agenda["posts"] if p.get("publicado") and p.get("video") and p.get("linkedin")
+            and not p.get("linkedin_publicado") and p.get("linkedin_tentativas", 0) < 3]
+    if not fila:
+        return False
+    li = li_token()
+    if not li:
+        print("LinkedIn: segredos ausentes, nada enviado.")
+        return False
+    for post in fila:
+        try:
+            urn = publicar_linkedin(li, post)
+            post["linkedin_publicado"] = {"post": urn, "em": agora.isoformat(timespec="seconds")}
+            print("  LinkedIn:", post["id"], "->", urn)
+        except Exception as e:
+            post["linkedin_tentativas"] = post.get("linkedin_tentativas", 0) + 1
+            print("  LinkedIn falhou em", post["id"], f"(tentativa {post['linkedin_tentativas']}):", str(e)[:300])
+    return True
+
+
 def conferir(tk, agenda):
     eu = chamar("GET", "me", fields="user_id,username,account_type", access_token=tk)
     lim = chamar("GET", f"{IG_ID}/content_publishing_limit", fields="quota_usage,config", access_token=tk)
@@ -218,6 +309,8 @@ def main():
         mudou = True
         print("  publicado:", media)
     if pendentes_youtube(agenda, agora):
+        mudou = True
+    if pendentes_linkedin(agenda, agora):
         mudou = True
     if mudou:
         AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
