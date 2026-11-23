@@ -274,6 +274,34 @@ def pendentes_linkedin(agenda, agora):
     return True
 
 
+FB_PAGINA = "1497653443424554"  # página do Facebook Meta Saúde Ocupacional
+
+
+def pendentes_facebook(agenda, agora):
+    """Publica na página do Facebook os vídeos que já saíram no Instagram (a partir de 24/11/2026).
+    Usa o bloco "facebook" {"texto"} se houver; senão, a legenda do Instagram. Precisa do segredo FB_PAGE_TOKEN."""
+    tk = os.environ.get("FB_PAGE_TOKEN")
+    fila = [p for p in agenda["posts"] if p.get("publicado") and p.get("video") and not p.get("facebook_publicado")
+            and not p.get("sem_facebook") and p["publicado"].get("em", "") >= "2026-11-24"
+            and p.get("facebook_tentativas", 0) < 3]
+    if not fila:
+        return False
+    if not tk:
+        print("Facebook: segredo FB_PAGE_TOKEN ausente, nada enviado.")
+        return False
+    for post in fila:
+        try:
+            texto = (post.get("facebook") or {}).get("texto") or post.get("legenda", "")
+            r = chamar("POST", f"https://graph.facebook.com/v21.0/{FB_PAGINA}/videos", file_url=PAGES + post["video"],
+                       description=texto, published="true", access_token=tk)
+            post["facebook_publicado"] = {"video": r["id"], "em": agora.isoformat(timespec="seconds")}
+            print("  Facebook:", post["id"], "->", r["id"])
+        except Exception as e:
+            post["facebook_tentativas"] = post.get("facebook_tentativas", 0) + 1
+            print("  Facebook falhou em", post["id"], f"(tentativa {post['facebook_tentativas']}):", str(e)[:300])
+    return True
+
+
 def conferir(tk, agenda):
     eu = chamar("GET", "me", fields="user_id,username,account_type", access_token=tk)
     lim = chamar("GET", f"{IG_ID}/content_publishing_limit", fields="quota_usage,config", access_token=tk)
@@ -311,6 +339,8 @@ def main():
     if pendentes_youtube(agenda, agora):
         mudou = True
     if pendentes_linkedin(agenda, agora):
+        mudou = True
+    if pendentes_facebook(agenda, agora):
         mudou = True
     if mudou:
         AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

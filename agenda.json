@@ -784,6 +784,11 @@
       "linkedin_publicado": {
         "post": "urn:li:ugcPost:7530753923675156480",
         "em": "2026-11-23T22:07:16+00:00"
+      },
+      "facebook_publicado": {
+        "video": "4305361183017874",
+        "em": "2026-11-23T22:18:01+00:00",
+        "obs": "publicado à mão pela Graph API (chave curta), antes da automação"
       }
     }
   ]

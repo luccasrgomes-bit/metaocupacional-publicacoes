@@ -20,6 +20,7 @@ jobs:
           LI_CLIENT_ID: ${{ secrets.LI_CLIENT_ID }}
           LI_CLIENT_SECRET: ${{ secrets.LI_CLIENT_SECRET }}
           LI_REFRESH_TOKEN: ${{ secrets.LI_REFRESH_TOKEN }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
         run: python3 publicar.py
       - name: Registrar o que foi publicado
         run: |
