@@ -790,6 +790,20 @@
         "em": "2026-11-23T22:18:01+00:00",
         "obs": "publicado à mão pela Graph API (chave curta), antes da automação"
       }
+    },
+    {
+      "id": "2026-11-reel-questionario",
+      "tema": "Reel 3D (paleta do clima): aplicar questionário online não basta para cumprir a NR-1; Ministério do Trabalho avisa; inventário + plano de ação. Voz Orus em chamada única.",
+      "quando": "2026-11-25T16:33:15-03:00",
+      "aprovado": true,
+      "video": "posts/2026-11-reel-questionario/reel.mp4",
+      "capa": "posts/2026-11-reel-questionario/capa.jpg",
+      "legenda": "Apliquei um questionário online na minha empresa. Já estou cumprindo a NR-1? Não.\n\nO próprio Ministério do Trabalho avisa: o questionário, sozinho, não comprova a gestão dos riscos psicossociais (Perguntas e Respostas do MTE, 30/04/2026, pergunta 2). Ele é uma etapa do diagnóstico, não o fim.\n\nA NR-1 pede o inventário de riscos e o plano de ação (item 1.5.7.1), com cronograma, responsáveis e formas de acompanhamento (item 1.5.5.2.2).\n\nConhece uma empresa que parou no questionário? Manda este vídeo pra ela.\n\nChecklist grátis do que a fiscalização vai pedir: metaocupacional.com.br/checklist-nr1 (link na bio).\nWhatsApp (66) 99917-5512\n\nTrilha: \"Ambient Minimal Techno Background\", Musinova, via Pixabay.\n\n#NR1 #riscospsicossociais #GRO #RH",
+      "linkedin": {
+        "texto": "Apliquei um questionário online na minha empresa. Já estou cumprindo a NR-1?\n\nNão. O próprio Ministério do Trabalho avisa: questionário sozinho não basta.\n\nA NR-1 pede o inventário de riscos e o plano de ação, com cronograma, responsáveis e acompanhamento. O questionário é uma etapa do diagnóstico, não o fim.\n\nConhece uma empresa que parou no questionário? Envie este post para ela.\n\nO checklist gratuito do que a fiscalização vai pedir está no primeiro comentário.\n\n#NR1 #RiscosPsicossociais #SaúdeOcupacional #RH",
+        "titulo": "Questionário online já cumpre a NR-1?",
+        "comentario": "Checklist grátis do que a fiscalização vai pedir: https://metaocupacional.com.br/checklist-nr1/?utm_source=linkedin&utm_medium=post&utm_campaign=questionario"
+      }
     }
   ]
 }
